@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python 学习之路 on 跟着老朱学Python</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Python 学习之路 on 跟着老朱学Python</description>
+    <title>Python 基础教程 on 跟着老朱学Python</title>
+    <link>http://localhost:1313/docs/python-basic/</link>
+    <description>Recent content in Python 基础教程 on 跟着老朱学Python</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/docs/python-basic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>第1章：Python简介</title>
       <link>http://localhost:1313/docs/python-basic/01-introduction/</link>

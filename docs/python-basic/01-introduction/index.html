@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  Python简介
+  #
+
+
+  Python 的历史
+  #
+
+Python 由荷兰人 Guido van Rossum 于1989年圣诞节期间编写而成。Python 这个名字来源于 Guido 所喜爱的电视剧《Monty Python&rsquo;s Flying Circus》。
+
+  Python 的特点
+  #
+
+
+
+简单易学
+
+清晰简洁的语法
+丰富的标准库
+大量的第三方库
+
+
+
+开源免费
+
+遵循 GPL(GNU General Public License)协议
+可以自由地使用和分发
+
+
+
+跨平台
+
+Windows
+Linux/Unix
+MacOS
+其他设备
+
+
+
+
+  Python 的应用领域
+  #
+
+
+
+Web 开发
+
+Django
+Flask
+FastAPI
+
+
+
+数据分析
+
+NumPy
+Pandas
+Matplotlib
+
+
+
+人工智能
+
+TensorFlow
+PyTorch
+Scikit-learn
+
+
+
+自动化运维
+
+系统管理
+自动化测试
+运维脚本
+
+
+
+
+  为什么选择 Python？
+  #
+
+
+广泛的应用场景
+丰富的生态系统
+活跃的社区支持
+较低的学习门槛
+良好的职业前景
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/python-basic/01-introduction/">
+  <meta property="og:site_name" content="跟着老朱学Python">
+  <meta property="og:title" content="第1章：Python简介">
+  <meta property="og:description" content="Python简介#Python 的历史#Python 由荷兰人 Guido van Rossum 于1989年圣诞节期间编写而成。Python 这个名字来源于 Guido 所喜爱的电视剧《Monty Python’s Flying Circus》。
+Python 的特点#简单易学
+清晰简洁的语法 丰富的标准库 大量的第三方库 开源免费
+遵循 GPL(GNU General Public License)协议 可以自由地使用和分发 跨平台
+Windows Linux/Unix MacOS 其他设备 Python 的应用领域#Web 开发
+Django Flask FastAPI 数据分析
+NumPy Pandas Matplotlib 人工智能
+TensorFlow PyTorch Scikit-learn 自动化运维
+系统管理 自动化测试 运维脚本 为什么选择 Python？#广泛的应用场景 丰富的生态系统 活跃的社区支持 较低的学习门槛 良好的职业前景">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+<title>第1章：Python简介 | 跟着老朱学Python</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/docs/python-basic/01-introduction/">
+<link rel="stylesheet" href="/book.min.d5e59cb0aa8d22a5813c62cd5e25d3d172489a369c61dc3f622ee96ae1ebb457.css" integrity="sha256-1eWcsKqNIqWBPGLNXiXT0XJImjacYdw/Yi7pauHrtFc=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/zh.search.min.0eed45182651f3d94d31579204961c30f458b9fbbc02c705e71098237a564ad6.js" integrity="sha256-Du1FGCZR89lNMVeSBJYcMPRYufu8AscF5xCYI3pWStY=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>跟着老朱学Python</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/"  target="_blank" rel="noopener">
+        首页
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-db18786178388ff79680859c0167b9ed" class="toggle" checked />
+    <label for="section-db18786178388ff79680859c0167b9ed" class="flex">
+      <a href="/docs/python-basic/" class="flex-auto ">Python 基础教程</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/python-basic/01-introduction/" class="active">第1章：Python简介</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/python-basic/02-install/" class="">第2章：Python的安装</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/about/"  target="_blank" rel="noopener">
+        关于
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>第1章：Python简介</h3>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#python-的历史">Python 的历史</a></li>
+    <li><a href="#python-的特点">Python 的特点</a></li>
+    <li><a href="#python-的应用领域">Python 的应用领域</a></li>
+    <li><a href="#为什么选择-python">为什么选择 Python？</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="python简介">
+  Python简介
+  <a class="anchor" href="#python%e7%ae%80%e4%bb%8b">#</a>
+</h1>
+<h2 id="python-的历史">
+  Python 的历史
+  <a class="anchor" href="#python-%e7%9a%84%e5%8e%86%e5%8f%b2">#</a>
+</h2>
+<p>Python 由荷兰人 Guido van Rossum 于1989年圣诞节期间编写而成。Python 这个名字来源于 Guido 所喜爱的电视剧《Monty Python&rsquo;s Flying Circus》。</p>
+<h2 id="python-的特点">
+  Python 的特点
+  <a class="anchor" href="#python-%e7%9a%84%e7%89%b9%e7%82%b9">#</a>
+</h2>
+<ol>
+<li>
+<p><strong>简单易学</strong></p>
+<ul>
+<li>清晰简洁的语法</li>
+<li>丰富的标准库</li>
+<li>大量的第三方库</li>
+</ul>
+</li>
+<li>
+<p><strong>开源免费</strong></p>
+<ul>
+<li>遵循 GPL(GNU General Public License)协议</li>
+<li>可以自由地使用和分发</li>
+</ul>
+</li>
+<li>
+<p><strong>跨平台</strong></p>
+<ul>
+<li>Windows</li>
+<li>Linux/Unix</li>
+<li>MacOS</li>
+<li>其他设备</li>
+</ul>
+</li>
+</ol>
+<h2 id="python-的应用领域">
+  Python 的应用领域
+  <a class="anchor" href="#python-%e7%9a%84%e5%ba%94%e7%94%a8%e9%a2%86%e5%9f%9f">#</a>
+</h2>
+<ol>
+<li>
+<p><strong>Web 开发</strong></p>
+<ul>
+<li>Django</li>
+<li>Flask</li>
+<li>FastAPI</li>
+</ul>
+</li>
+<li>
+<p><strong>数据分析</strong></p>
+<ul>
+<li>NumPy</li>
+<li>Pandas</li>
+<li>Matplotlib</li>
+</ul>
+</li>
+<li>
+<p><strong>人工智能</strong></p>
+<ul>
+<li>TensorFlow</li>
+<li>PyTorch</li>
+<li>Scikit-learn</li>
+</ul>
+</li>
+<li>
+<p><strong>自动化运维</strong></p>
+<ul>
+<li>系统管理</li>
+<li>自动化测试</li>
+<li>运维脚本</li>
+</ul>
+</li>
+</ol>
+<h2 id="为什么选择-python">
+  为什么选择 Python？
+  <a class="anchor" href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%80%89%e6%8b%a9-python">#</a>
+</h2>
+<ol>
+<li><strong>广泛的应用场景</strong></li>
+<li><strong>丰富的生态系统</strong></li>
+<li><strong>活跃的社区支持</strong></li>
+<li><strong>较低的学习门槛</strong></li>
+<li><strong>良好的职业前景</strong></li>
+</ol>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#python-的历史">Python 的历史</a></li>
+    <li><a href="#python-的特点">Python 的特点</a></li>
+    <li><a href="#python-的应用领域">Python 的应用领域</a></li>
+    <li><a href="#为什么选择-python">为什么选择 Python？</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
