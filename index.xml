@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python 学习笔记 on python学习</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Python 学习笔记 on python学习</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python 发展历史</title>
+      <link>http://localhost:1313/docs/python-basics/01-introduction/history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/python-basics/01-introduction/history/</guid>
+      <description>&lt;h1 id=&#34;python-的发展历史&#34;&gt;&#xD;&#xA;  Python 的发展历史&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#python-%e7%9a%84%e5%8f%91%e5%b1%95%e5%8e%86%e5%8f%b2&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Python 的历史可以追溯到 20 世纪 80 年代末。它的创始人 Guido van Rossum 在 1989 年的圣诞节期间，为了打发圣诞节假期时间，决定开发一个新的脚本解释程序，作为 ABC 语言的一种继承。&lt;/p&gt;&#xA;&lt;h2 id=&#34;重要时间节点&#34;&gt;&#xD;&#xA;  重要时间节点&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%87%8d%e8%a6%81%e6%97%b6%e9%97%b4%e8%8a%82%e7%82%b9&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1991：第一个 Python 编译器诞生&lt;/li&gt;&#xA;&lt;li&gt;2000：Python 2.0 发布&lt;/li&gt;&#xA;&lt;li&gt;2008：Python 3.0 发布&lt;/li&gt;&#xA;&lt;li&gt;2020：Python 2 停止维护&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Python 特性</title>
+      <link>http://localhost:1313/docs/python-basics/01-introduction/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/python-basics/01-introduction/features/</guid>
+      <description>&lt;h1 id=&#34;python-的主要特性&#34;&gt;&#xD;&#xA;  Python 的主要特性&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#python-%e7%9a%84%e4%b8%bb%e8%a6%81%e7%89%b9%e6%80%a7&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;h2 id=&#34;简单易学&#34;&gt;&#xD;&#xA;  简单易学&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e7%ae%80%e5%8d%95%e6%98%93%e5%ad%a6&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;语法简洁清晰&lt;/li&gt;&#xA;&lt;li&gt;入门门槛低&lt;/li&gt;&#xA;&lt;li&gt;大量中文学习资源&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;开源免费&#34;&gt;&#xD;&#xA;  开源免费&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%bc%80%e6%ba%90%e5%85%8d%e8%b4%b9&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;自由软件&lt;/li&gt;&#xA;&lt;li&gt;庞大的社区支持&lt;/li&gt;&#xA;&lt;li&gt;丰富的第三方库&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;跨平台&#34;&gt;&#xD;&#xA;  跨平台&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e8%b7%a8%e5%b9%b3%e5%8f%b0&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Windows&lt;/li&gt;&#xA;&lt;li&gt;Linux&lt;/li&gt;&#xA;&lt;li&gt;macOS&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
