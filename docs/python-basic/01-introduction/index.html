@@ -4,117 +4,88 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="
-  Python简介
+  什么是 Python？
+  #
+
+Python 是一种高级、解释型、通用的编程语言，由吉多·范罗苏姆于 1989 年底发明，1991 年首次发布。其设计哲学强调：
+
+代码可读性
+简洁语法（使用缩进定义代码块）
+开发效率
+
+
+
+  核心特点
   #
 
 
-  Python 的历史
-  #
-
-Python 由荷兰人 Guido van Rossum 于1989年圣诞节期间编写而成。Python 这个名字来源于 Guido 所喜爱的电视剧《Monty Python&rsquo;s Flying Circus》。
-
-  Python 的特点
+  1. 简单易学
   #
 
 
-
-简单易学
-
-清晰简洁的语法
-丰富的标准库
-大量的第三方库
+语法接近自然语言（英语）
+强制缩进保证代码结构一致性
+入门门槛低，初学者友好
 
 
-
-开源免费
-
-遵循 GPL(GNU General Public License)协议
-可以自由地使用和分发
+  2. 解释型语言
+  #
 
 
-
-跨平台
-
-Windows
-Linux/Unix
-MacOS
-其他设备
+通过解释器（CPython/PyPy 等）逐行执行
+开发周期快（写代码 → 运行 → 看结果）
+运行速度可通过 C 扩展/PyPy JIT 优化
 
 
-
-
-  Python 的应用领域
+  3. 高级语言特性
   #
 
 
 
-Web 开发
-
-Django
-Flask
-FastAPI
-
+强大的内置数据类型：
+list = [1, 2, 3]           # 列表
+dict = {&#34;key&#34;: &#34;value&#34;}     # 字典
+tuple = (1, &#34;a&#34;)           # 元组
 
 
-数据分析
-
-NumPy
-Pandas
-Matplotlib
+自动内存管理
 
 
 
-人工智能
-
-TensorFlow
-PyTorch
-Scikit-learn
-
-
-
-自动化运维
-
-系统管理
-自动化测试
-运维脚本
-
-
-
-
-  为什么选择 Python？
+  4. 多范式支持
   #
 
 
-广泛的应用场景
-丰富的生态系统
-活跃的社区支持
-较低的学习门槛
-良好的职业前景
-">
+面向对象编程（OOP）
+过程式编程
+函数式编程
+
+
+  5. 动态类型
+  #
+
+
+
+变量类型自动推断（x = 10 → 整数）">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/python-basic/01-introduction/">
   <meta property="og:site_name" content="跟着老朱学Python">
-  <meta property="og:title" content="第1章：Python简介">
-  <meta property="og:description" content="Python简介#Python 的历史#Python 由荷兰人 Guido van Rossum 于1989年圣诞节期间编写而成。Python 这个名字来源于 Guido 所喜爱的电视剧《Monty Python’s Flying Circus》。
-Python 的特点#简单易学
-清晰简洁的语法 丰富的标准库 大量的第三方库 开源免费
-遵循 GPL(GNU General Public License)协议 可以自由地使用和分发 跨平台
-Windows Linux/Unix MacOS 其他设备 Python 的应用领域#Web 开发
-Django Flask FastAPI 数据分析
-NumPy Pandas Matplotlib 人工智能
-TensorFlow PyTorch Scikit-learn 自动化运维
-系统管理 自动化测试 运维脚本 为什么选择 Python？#广泛的应用场景 丰富的生态系统 活跃的社区支持 较低的学习门槛 良好的职业前景">
+  <meta property="og:title" content="第1章：Python 编程语言介绍">
+  <meta property="og:description" content="什么是 Python？#Python 是一种高级、解释型、通用的编程语言，由吉多·范罗苏姆于 1989 年底发明，1991 年首次发布。其设计哲学强调：
+代码可读性 简洁语法（使用缩进定义代码块） 开发效率 核心特点#1. 简单易学#语法接近自然语言（英语） 强制缩进保证代码结构一致性 入门门槛低，初学者友好 2. 解释型语言#通过解释器（CPython/PyPy 等）逐行执行 开发周期快（写代码 → 运行 → 看结果） 运行速度可通过 C 扩展/PyPy JIT 优化 3. 高级语言特性#强大的内置数据类型：
+list = [1, 2, 3] # 列表 dict = {&#34;key&#34;: &#34;value&#34;} # 字典 tuple = (1, &#34;a&#34;) # 元组 自动内存管理
+4. 多范式支持#面向对象编程（OOP） 过程式编程 函数式编程 5. 动态类型#变量类型自动推断（x = 10 → 整数）">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
-<title>第1章：Python简介 | 跟着老朱学Python</title>
+<title>第1章：Python 编程语言介绍 | 跟着老朱学Python</title>
 <link rel="icon" href="/favicon.png" >
 <link rel="manifest" href="/manifest.json">
 <link rel="canonical" href="http://localhost:1313/docs/python-basic/01-introduction/">
 <link rel="stylesheet" href="/book.min.d5e59cb0aa8d22a5813c62cd5e25d3d172489a369c61dc3f622ee96ae1ebb457.css" integrity="sha256-1eWcsKqNIqWBPGLNXiXT0XJImjacYdw/Yi7pauHrtFc=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/zh.search.min.0eed45182651f3d94d31579204961c30f458b9fbbc02c705e71098237a564ad6.js" integrity="sha256-Du1FGCZR89lNMVeSBJYcMPRYufu8AscF5xCYI3pWStY=" crossorigin="anonymous"></script>
+  <script defer src="/zh.search.min.96788068f0c6350afa9ab8ad1b4b27180dfc162a3c6573519fdee65b1689c399.js" integrity="sha256-lniAaPDGNQr6mritG0snGA38Fio8ZXNRn97mWxaJw5k=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -194,7 +165,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/python-basic/01-introduction/" class="active">第1章：Python简介</a>
+    <a href="/docs/python-basic/01-introduction/" class="active">第1章：Python 编程语言介绍</a>
   
 
         </li>
@@ -265,7 +236,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <h3>第1章：Python简介</h3>
+  <h3>第1章：Python 编程语言介绍</h3>
 
   <label for="toc-control">
     
@@ -281,10 +252,23 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#python-的历史">Python 的历史</a></li>
-    <li><a href="#python-的特点">Python 的特点</a></li>
-    <li><a href="#python-的应用领域">Python 的应用领域</a></li>
-    <li><a href="#为什么选择-python">为什么选择 Python？</a></li>
+    <li><a href="#什么是-python">什么是 Python？</a></li>
+    <li><a href="#核心特点">核心特点</a>
+      <ul>
+        <li><a href="#1-简单易学">1. 简单易学</a></li>
+        <li><a href="#2-解释型语言">2. 解释型语言</a></li>
+        <li><a href="#3-高级语言特性">3. 高级语言特性</a></li>
+        <li><a href="#4-多范式支持">4. 多范式支持</a></li>
+        <li><a href="#5-动态类型">5. 动态类型</a></li>
+        <li><a href="#6-强大的标准库">6. 强大的标准库</a></li>
+        <li><a href="#7-庞大的第三方生态">7. 庞大的第三方生态</a></li>
+        <li><a href="#8-跨平台">8. 跨平台</a></li>
+        <li><a href="#9-开源免费">9. 开源免费</a></li>
+      </ul>
+    </li>
+    <li><a href="#经典示例hello-world">经典示例：Hello World</a></li>
+    <li><a href="#应用领域">应用领域</a></li>
+    <li><a href="#谁在使用-python">谁在使用 Python？</a></li>
   </ul>
 </nav>
 
@@ -297,94 +281,195 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown book-article"><h1 id="python简介">
-  Python简介
-  <a class="anchor" href="#python%e7%ae%80%e4%bb%8b">#</a>
-</h1>
-<h2 id="python-的历史">
-  Python 的历史
-  <a class="anchor" href="#python-%e7%9a%84%e5%8e%86%e5%8f%b2">#</a>
+  <article class="markdown book-article"><h2 id="什么是-python">
+  什么是 Python？
+  <a class="anchor" href="#%e4%bb%80%e4%b9%88%e6%98%af-python">#</a>
 </h2>
-<p>Python 由荷兰人 Guido van Rossum 于1989年圣诞节期间编写而成。Python 这个名字来源于 Guido 所喜爱的电视剧《Monty Python&rsquo;s Flying Circus》。</p>
-<h2 id="python-的特点">
-  Python 的特点
-  <a class="anchor" href="#python-%e7%9a%84%e7%89%b9%e7%82%b9">#</a>
-</h2>
-<ol>
-<li>
-<p><strong>简单易学</strong></p>
+<p>Python 是一种<strong>高级</strong>、<strong>解释型</strong>、<strong>通用</strong>的编程语言，由吉多·范罗苏姆于 1989 年底发明，1991 年首次发布。其设计哲学强调：</p>
 <ul>
-<li>清晰简洁的语法</li>
-<li>丰富的标准库</li>
-<li>大量的第三方库</li>
+<li><strong>代码可读性</strong></li>
+<li><strong>简洁语法</strong>（使用缩进定义代码块）</li>
+<li><strong>开发效率</strong></li>
 </ul>
+<hr>
+<h2 id="核心特点">
+  核心特点
+  <a class="anchor" href="#%e6%a0%b8%e5%bf%83%e7%89%b9%e7%82%b9">#</a>
+</h2>
+<h3 id="1-简单易学">
+  1. 简单易学
+  <a class="anchor" href="#1-%e7%ae%80%e5%8d%95%e6%98%93%e5%ad%a6">#</a>
+</h3>
+<ul>
+<li>语法接近自然语言（英语）</li>
+<li>强制缩进保证代码结构一致性</li>
+<li>入门门槛低，初学者友好</li>
+</ul>
+<h3 id="2-解释型语言">
+  2. 解释型语言
+  <a class="anchor" href="#2-%e8%a7%a3%e9%87%8a%e5%9e%8b%e8%af%ad%e8%a8%80">#</a>
+</h3>
+<ul>
+<li>通过解释器（CPython/PyPy 等）逐行执行</li>
+<li>开发周期快（写代码 → 运行 → 看结果）</li>
+<li>运行速度可通过 C 扩展/PyPy JIT 优化</li>
+</ul>
+<h3 id="3-高级语言特性">
+  3. 高级语言特性
+  <a class="anchor" href="#3-%e9%ab%98%e7%ba%a7%e8%af%ad%e8%a8%80%e7%89%b9%e6%80%a7">#</a>
+</h3>
+<ul>
+<li>
+<p>强大的内置数据类型：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>]           <span style="color:#75715e"># 列表</span>
+</span></span><span style="display:flex;"><span>dict <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;key&#34;</span>: <span style="color:#e6db74">&#34;value&#34;</span>}     <span style="color:#75715e"># 字典</span>
+</span></span><span style="display:flex;"><span>tuple <span style="color:#f92672">=</span> (<span style="color:#ae81ff">1</span>, <span style="color:#e6db74">&#34;a&#34;</span>)           <span style="color:#75715e"># 元组</span>
+</span></span></code></pre></div></li>
+<li>
+<p>自动内存管理</p>
+</li>
+</ul>
+<h3 id="4-多范式支持">
+  4. 多范式支持
+  <a class="anchor" href="#4-%e5%a4%9a%e8%8c%83%e5%bc%8f%e6%94%af%e6%8c%81">#</a>
+</h3>
+<ul>
+<li>面向对象编程（OOP）</li>
+<li>过程式编程</li>
+<li>函数式编程</li>
+</ul>
+<h3 id="5-动态类型">
+  5. 动态类型
+  <a class="anchor" href="#5-%e5%8a%a8%e6%80%81%e7%b1%bb%e5%9e%8b">#</a>
+</h3>
+<ul>
+<li>
+<p>变量类型自动推断（<code>x = 10</code> → 整数）</p>
 </li>
 <li>
-<p><strong>开源免费</strong></p>
-<ul>
-<li>遵循 GPL(GNU General Public License)协议</li>
-<li>可以自由地使用和分发</li>
+<p>支持类型注解提高安全性：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">greet</span>(name: str) <span style="color:#f92672">-&gt;</span> str:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Hello, </span><span style="color:#e6db74">{</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div></li>
 </ul>
-</li>
-<li>
-<p><strong>跨平台</strong></p>
+<h3 id="6-强大的标准库">
+  6. 强大的标准库
+  <a class="anchor" href="#6-%e5%bc%ba%e5%a4%a7%e7%9a%84%e6%a0%87%e5%87%86%e5%ba%93">#</a>
+</h3>
+<p>开箱即用的模块：</p>
+<ul>
+<li>文件 I/O</li>
+<li>网络通信（socket）</li>
+<li>正则表达式（re）</li>
+<li>图形界面（Tkinter）</li>
+<li>测试框架（unittest）</li>
+</ul>
+<h3 id="7-庞大的第三方生态">
+  7. 庞大的第三方生态
+  <a class="anchor" href="#7-%e5%ba%9e%e5%a4%a7%e7%9a%84%e7%ac%ac%e4%b8%89%e6%96%b9%e7%94%9f%e6%80%81">#</a>
+</h3>
+<p>通过 PyPI 和 pip 管理：</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">领域</th>
+          <th style="text-align: left">流行框架/库</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Web 开发</td>
+          <td style="text-align: left">Django, Flask, FastAPI</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">数据科学</td>
+          <td style="text-align: left">Pandas, NumPy, Matplotlib</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">机器学习</td>
+          <td style="text-align: left">Scikit-learn, TensorFlow, PyTorch</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">自动化运维</td>
+          <td style="text-align: left">Ansible, Scrapy</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">桌面 GUI</td>
+          <td style="text-align: left">PyQt, PySide</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="8-跨平台">
+  8. 跨平台
+  <a class="anchor" href="#8-%e8%b7%a8%e5%b9%b3%e5%8f%b0">#</a>
+</h3>
 <ul>
 <li>Windows</li>
+<li>macOS</li>
 <li>Linux/Unix</li>
-<li>MacOS</li>
-<li>其他设备</li>
+<li>无需修改代码</li>
 </ul>
-</li>
-</ol>
-<h2 id="python-的应用领域">
-  Python 的应用领域
-  <a class="anchor" href="#python-%e7%9a%84%e5%ba%94%e7%94%a8%e9%a2%86%e5%9f%9f">#</a>
+<h3 id="9-开源免费">
+  9. 开源免费
+  <a class="anchor" href="#9-%e5%bc%80%e6%ba%90%e5%85%8d%e8%b4%b9">#</a>
+</h3>
+<ul>
+<li>开源许可证</li>
+<li>允许商业使用</li>
+</ul>
+<hr>
+<h2 id="经典示例hello-world">
+  经典示例：Hello World
+  <a class="anchor" href="#%e7%bb%8f%e5%85%b8%e7%a4%ba%e4%be%8bhello-world">#</a>
 </h2>
-<ol>
-<li>
-<p><strong>Web 开发</strong></p>
-<ul>
-<li>Django</li>
-<li>Flask</li>
-<li>FastAPI</li>
-</ul>
-</li>
-<li>
-<p><strong>数据分析</strong></p>
-<ul>
-<li>NumPy</li>
-<li>Pandas</li>
-<li>Matplotlib</li>
-</ul>
-</li>
-<li>
-<p><strong>人工智能</strong></p>
-<ul>
-<li>TensorFlow</li>
-<li>PyTorch</li>
-<li>Scikit-learn</li>
-</ul>
-</li>
-<li>
-<p><strong>自动化运维</strong></p>
-<ul>
-<li>系统管理</li>
-<li>自动化测试</li>
-<li>运维脚本</li>
-</ul>
-</li>
-</ol>
-<h2 id="为什么选择-python">
-  为什么选择 Python？
-  <a class="anchor" href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%80%89%e6%8b%a9-python">#</a>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Hello, World!&#34;</span>)  
+</span></span></code></pre></div><hr>
+<h2 id="应用领域">
+  应用领域
+  <a class="anchor" href="#%e5%ba%94%e7%94%a8%e9%a2%86%e5%9f%9f">#</a>
 </h2>
-<ol>
-<li><strong>广泛的应用场景</strong></li>
-<li><strong>丰富的生态系统</strong></li>
-<li><strong>活跃的社区支持</strong></li>
-<li><strong>较低的学习门槛</strong></li>
-<li><strong>良好的职业前景</strong></li>
-</ol>
+<ul>
+<li>✅ Web 后端开发</li>
+<li>✅ 数据科学与可视化</li>
+<li>✅ 人工智能/机器学习</li>
+<li>✅ 自动化运维脚本</li>
+<li>✅ 科学计算与金融分析</li>
+<li>✅ 教育领域编程入门</li>
+</ul>
+<hr>
+<h2 id="谁在使用-python">
+  谁在使用 Python？
+  <a class="anchor" href="#%e8%b0%81%e5%9c%a8%e4%bd%bf%e7%94%a8-python">#</a>
+</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">行业</th>
+          <th style="text-align: left">代表企业</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">科技</td>
+          <td style="text-align: left">Google, Netflix, Meta</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">金融</td>
+          <td style="text-align: left">摩根大通, 高盛</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">科研机构</td>
+          <td style="text-align: left">NASA, CERN</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">教育</td>
+          <td style="text-align: left">MIT, 斯坦福课程</td>
+      </tr>
+  </tbody>
+</table>
+<blockquote>
+<p>提示：Python 在 2023 年 TIOBE 和 PYPL 编程语言排行榜中稳居前三</p></blockquote>
+<p><img src="/images/ads.png" alt="广告" /></p>
 </article>
  
       
@@ -426,10 +511,23 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#python-的历史">Python 的历史</a></li>
-    <li><a href="#python-的特点">Python 的特点</a></li>
-    <li><a href="#python-的应用领域">Python 的应用领域</a></li>
-    <li><a href="#为什么选择-python">为什么选择 Python？</a></li>
+    <li><a href="#什么是-python">什么是 Python？</a></li>
+    <li><a href="#核心特点">核心特点</a>
+      <ul>
+        <li><a href="#1-简单易学">1. 简单易学</a></li>
+        <li><a href="#2-解释型语言">2. 解释型语言</a></li>
+        <li><a href="#3-高级语言特性">3. 高级语言特性</a></li>
+        <li><a href="#4-多范式支持">4. 多范式支持</a></li>
+        <li><a href="#5-动态类型">5. 动态类型</a></li>
+        <li><a href="#6-强大的标准库">6. 强大的标准库</a></li>
+        <li><a href="#7-庞大的第三方生态">7. 庞大的第三方生态</a></li>
+        <li><a href="#8-跨平台">8. 跨平台</a></li>
+        <li><a href="#9-开源免费">9. 开源免费</a></li>
+      </ul>
+    </li>
+    <li><a href="#经典示例hello-world">经典示例：Hello World</a></li>
+    <li><a href="#应用领域">应用领域</a></li>
+    <li><a href="#谁在使用-python">谁在使用 Python？</a></li>
   </ul>
 </nav>
 
